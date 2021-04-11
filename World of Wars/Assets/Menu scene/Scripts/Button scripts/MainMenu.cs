@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
     public void PlayGame()
     {
             // loading a specific scene
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Game");
             // loading the next scene
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
